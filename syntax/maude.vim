@@ -15,7 +15,7 @@ command! -nargs=+ MaudeHiLink hi def link <args>
 
 syn keyword maudeModule     mod fmod omod endm endfm endm is
 syn keyword maudeImports    protecting including extending
-syn keyword maudeSorts      sorts subsorts
+syn keyword maudeSorts      sort sorts subsort subsorts
 syn keyword maudeStatements op ops var vars eq ceq
 syn match   maudeFlags      "\[.*\]"
 syn keyword maudeCommands   reduce
@@ -76,7 +76,7 @@ syn match   maudeSorts      "MatchPair\?"
 syn match   maudeSorts      "Substitution\?"
 
 " From the BOOL module
-syn keyword maudeStatements and or xor not implies
+syn keyword maudeStatements if and or xor not implies
 
 syn keyword maudeLiteral    true false
 syn match   maudeLiteral    "\<\(0[0-7]*\|0[xX]\x\+\|\d\+\)[lL]\=\>"
