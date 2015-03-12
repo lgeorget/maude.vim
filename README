@@ -1,3 +1,5 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=1475
+This is a fork from https://github.com/vim-scripts/maude.vim, a small but yet
+pretty functional syntax plugin for the Maude language
+(http://maude.cs.uiuc.edu/).
 
-This is a very rudimentary but functional and hopefully useful syntax file for the Maude language (http://maude.cs.uiuc.edu/). A screenshot with the "koehler" colorscheme is available here: http://severinghaus.org/projects/mandelbrot/maudelbrot_vim.png
+Unfortunately, the code in upstream in unlicensed so mine too, for now...
